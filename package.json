@@ -1,0 +1,22 @@
+{
+  "name": "typed-font-awesome",
+  "version": "1.0.0",
+  "description": "Typed font awesome classes",
+  "main": "dist/index.js",
+  "dependencies": {
+    "expect": "^21.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node dist/test.js",
+    "pretest": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "typed",
+    "font",
+    "awesome"
+  ],
+  "author": "Rafael Salguero Iturrios <rafaelsalgueroiturrios@gmail.com>",
+  "license": "MIT"
+}
